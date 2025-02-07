@@ -1,0 +1,59 @@
+* {
+    font-family: "JetBrains Mono", serif;
+}
+
+header {
+    margin: 0.5rem;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #313062;
+}
+
+body {
+    background-color: #1a1939;
+}
+
+body input {
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background-color: #1a1939;
+    color: white;
+}
+
+body button {
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background-color: #1a1939;
+    color: white;
+    margin-top: 1rem;
+}
+
+body button:hover {
+    background-color: #313062;
+}
+
+.container {
+    display: flex;
+    background-color: #313062;
+    border: white 1px solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 0.5rem;
+}
+
+.dimmed-text {
+    color: grey;
+}
+
+.small-text {
+    font-size: 70%;
+    align-self: center;
+}
