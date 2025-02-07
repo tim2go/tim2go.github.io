@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Julia Tax Calculator</title>
+        <link rel="stylesheet" href="themes/style.css">
+    </head>
+    <header>
+        <h1>Julia Tax Calculator</h1>
+        <p>This Calculator is accurate as of February 6th, 2025, 11:35 PM PST (8:35 AM CET)</p>
+        <p class="dimmed-text">Income is defined as any money earned from having a job, whether it is a government job or from a private company.</p>
+    </header>
+    <body>
+        <div class="container">
+            <h2>Enter Daily Income:</h2>
+            <input type="number" id="income" placeholder="Enter Daily Income">
+            <button onclick="doMyTaxes()">Calculate!</button>
+            <p id="tax">Weekly Taxes: $0.00</p>
+            <p id="percentpaid">Percent of weekly income paid: 0.00%</p>
+        </div>
+        <script src="scripts/taxes.js"></script>
+    </body>
+</html>
